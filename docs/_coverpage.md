@@ -4,8 +4,8 @@
 
 
 
-[![stars](https://badgen.net/github/stars/dreamwhigh/CS-Learning?icon=github&color=4ab8a1)]((<https://github.com/dreamwhigh/CS-Learning>)) [![forks](https://badgen.net/github/forks/dreamwhigh/CS-Learning?icon=github&color=4ab8a1)](<https://github.com/dreamwhigh/CS-Learning>)
+[![stars](https://badgen.net/github/stars/dreamwhigh/Docsify-Notes?icon=github&color=4ab8a1)]((<https://github.com/dreamwhigh/Docsify-Notes>)) [![forks](https://badgen.net/github/forks/dreamwhigh/Docsify-Notes?icon=github&color=4ab8a1)](<https://github.com/dreamwhigh/Docsify-Notes>)
 
-[GitHub](<https://github.com/dreamwhigh/CS-Learning>)
+[GitHub](<https://github.com/dreamwhigh/Docsify-Notes>)
 [Get Started](README.md)
 

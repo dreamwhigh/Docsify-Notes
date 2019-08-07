@@ -89,6 +89,8 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 
  效果
 
+<div align="center"> <img src="https://github.com/dreamwhigh/Docsify-Notes/raw/master/docs/pics\1562813004256.png"/> </div><br>
+
 ![1562813004256](E:\GitHub\CS-Learning\docs\tools\pics\1562813004256.png)
 
 ### 自定义加载文件名

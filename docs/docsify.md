@@ -1,12 +1,12 @@
-### docsify 教程
+# docsify 教程
 
-#### 前期准备
+## 前期准备
 
-##### 安装 git
+### 安装 git
 
 [git 国内镜像下载地址](<https://github.com/waylau/git-for-win/>)
 
-##### 安装 npm
+### 安装 npm
 
 参照 [npm 安装教程](<https://www.cnblogs.com/goldlong/p/8027997.html>)，安装 [node](<https://nodejs.org/en/>) ，建议选择 Long Term Support (LTS) 长期支持版本。
 
@@ -16,11 +16,11 @@
 npm i docsify-cli -g
 ```
 
-##### 安装 notepad++
+### 安装 notepad++
 
 文本编辑器推荐安装 [notepad++](<https://notepad-plus-plus.org/>) 。
 
-#### 初始化
+## 初始化
 
 在 E:\GitHub 下打开 git bash here ,通过 `docsify init ./name` 初始化项目，自动生成 E:\GitHub\docsify 目录，且在该目录下会存在以下三个文件：
 
@@ -43,7 +43,7 @@ Serving E:\GitHub\docsify now.
 Listening at http://localhost:3000
 ```
 
-#### 多页文档
+## 多页文档
 
 ```
 -| docsify/
@@ -63,9 +63,9 @@ docs/zh-cn/README.md  => http://domain.com/zh-cn/
 docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 ```
 
-#### 侧边栏
+## 侧边栏
 
-##### 默认加载方式
+### 默认加载方式
 
 通过 `_sidebar.md` 文件创建
 
@@ -91,7 +91,7 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 
 ![1562813004256](E:\GitHub\CS-Learning\docs\tools\pics\1562813004256.png)
 
-##### 自定义加载文件名
+### 自定义加载文件名
 
 配置 `loadSidebar` 选项
 
@@ -107,7 +107,7 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 
 ![562813148977](E:\GitHub\CS-Learning\docs\tools\pics\1562813148977.png)
 
-#### 目录
+## 目录
 
 配置 `subMaxLevel`，其后的数字表示能够显示副标题的级数
 
@@ -165,11 +165,11 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 
 ![1562814881526](E:\GitHub\CS-Learning\docs\tools\pics\1562814881526.png)
 
-#### 导航栏
+## 导航栏
 
 两种方法：HTML 定义和 Markdown 文件定义
 
-##### HTML 定义
+### HTML 定义
 
 注意链接要以 `#/` 开头。
 
@@ -184,7 +184,7 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 </body>
 ```
 
-##### Markdown 文件定义
+### Markdown 文件定义
 
 先配置 `loadNavbar` ，默认加载的文件为 `_navbar.md`
 
@@ -218,7 +218,7 @@ window.$docsify = {
 
 **Markdown 文件配置的优先级高于直接在 HTML 里定义**
 
-##### 嵌套（下拉列表）
+### 嵌套（下拉列表）
 
 如果导航内容过多，可以写成嵌套的列表，会被渲染成下拉列表的形式。
 
@@ -238,9 +238,9 @@ window.$docsify = {
 
 ![1562817235032](E:\GitHub\CS-Learning\docs\tools\pics\1562817235032.png)
 
-#### 封面
+## 封面
 
-##### Markdown 文件配置
+### Markdown 文件配置
 
 修改 `index.html` 文件
 
@@ -274,7 +274,7 @@ or
 
 一份文档只会在根目录下加载封面，其他页面或者二级目录下都不会加载。
 
-##### 背景
+## 背景
 
 默认的背景是随机生成的渐变色，我们自定义背景色或者背景图。在文档末尾用添加图片的 Markdown 语法设置背景。
 
@@ -290,7 +290,7 @@ or
 ![color](#f0f0f0)
 ```
 
-##### 多个封面页
+### 多个封面页
 
 ```
 window.$docsify = {
@@ -310,7 +310,7 @@ window.$docsify = {
 };
 ```
 
-#### 更多
+## 更多
 
 更多详细说明参照：
 
@@ -318,7 +318,7 @@ window.$docsify = {
 
 [官方说明文档-中文版](<https://docsify.js.org/#/zh-cn/>)
 
-#### 示例
+## 示例
 
 [完整项目可在 GitHub 上 fork](<https://github.com/dreamwhigh/CS-Learning>)
 

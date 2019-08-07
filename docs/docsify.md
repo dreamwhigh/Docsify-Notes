@@ -165,7 +165,7 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 
 显示结果如下：
 
-<div align="center"> <img src="https://github.com/dreamwhigh/Docsify-Notes/raw/master/docs/pics/1562814881526.png"/> </div><br>
+<div align="center"> <img src="https://github.com/dreamwhigh/Docsify-Notes/blob/master/docs/pics/1562814881526.png?raw=true"/> </div><br>
 
 ## 导航栏
 

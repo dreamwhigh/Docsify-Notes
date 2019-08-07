@@ -89,9 +89,7 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 
  效果
 
-<div align="center"> <img src="https://github.com/dreamwhigh/Docsify-Notes/raw/master/docs/pics\1562813004256.png"/> </div><br>
-
-![1562813004256](E:\GitHub\CS-Learning\docs\tools\pics\1562813004256.png)
+<div align="center"> <img src="https://github.com/dreamwhigh/Docsify-Notes/blob/master/docs/pics/1562813004256.png?raw=true"/> </div><br>
 
 ### 自定义加载文件名
 
@@ -107,7 +105,9 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 
 效果
 
-![562813148977](E:\GitHub\CS-Learning\docs\tools\pics\1562813148977.png)
+<div align="center"> <img src="https://github.com/dreamwhigh/Docsify-Notes/blob/master/docs/pics/1562813148977.png?raw=true"/> </div><br>
+
+
 
 ## 目录
 
@@ -165,7 +165,7 @@ docs/zh-cn/guide.md   => http://domain.com/zh-cn/guide
 
 显示结果如下：
 
-![1562814881526](E:\GitHub\CS-Learning\docs\tools\pics\1562814881526.png)
+<div align="center"> <img src="https://github.com/dreamwhigh/Docsify-Notes/raw/master/docs/pics/1562814881526.png"/> </div><br>
 
 ## 导航栏
 
@@ -238,7 +238,9 @@ window.$docsify = {
 
 结果如下图：
 
-![1562817235032](E:\GitHub\CS-Learning\docs\tools\pics\1562817235032.png)
+<div align="center"> <img src="https://github.com/dreamwhigh/Docsify-Notes/blob/master/docs/pics/1562817235032.png?raw=true"/> </div><br>
+
+
 
 ## 封面
 
@@ -368,3 +370,43 @@ window.$docsify = {
 </html>
 
 ```
+
+## GitHub 相关
+
+### 添加图片
+
+插入 GitHub 库中的图片
+
+#### 获取图片网络地址
+
+1. 在 GitHub 库中打开该图片，复制该网页地址（<https://github.com/dreamwhigh/Docsify-Notes/blob/master/docs/_media/logo.png>），将其中的 blob 替换为 raw，即：https://github.com/dreamwhigh/Docsify-Notes/raw/master/docs/_media/logo.png；
+2. 直接在图片上右击，选择复制该图片地址，即：https://github.com/dreamwhigh/Docsify-Notes/blob/master/docs/_media/logo.png?raw=true 。
+
+#### 插入图片的方式
+
+`<div align="center"> <img src="https://github.com/dreamwhigh/Docsify-Notes/blob/master/docs/_media/logo.png?raw=true " width="200"/> </div><br>`
+
+其中：
+
+`align="center"` 设置图片居中
+
+`width="200"`设置图片大小
+
+<div align="center"> <img src="https://github.com/dreamwhigh/Docsify-Notes/blob/master/docs/_media/logo.png?raw=true " width="200"/> </div><br>
+
+#### 添加 Github 项目的 fork 和 star 图标
+
+将下面 url 中的 dreamwhigh 替换为对应的 GitHub 账户名，Docsify-Notes 替换为对应的 Github 项目名即可。
+
+fork 图标引用：
+
+`![forks](https://badgen.net/github/forks/dreamwhigh/Docsify-Notes?icon=github&color=4ab8a1)`
+
+![forks](https://badgen.net/github/forks/dreamwhigh/Docsify-Notes?icon=github&color=4ab8a1)
+
+star 图标引用：
+
+`![stars](https://badgen.net/github/stars/CyC2018/CS-Notes?icon=github&color=4ab8a1)`
+
+![stars](https://badgen.net/github/stars/CyC2018/CS-Notes?icon=github&color=4ab8a1)
+
